@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #FF66CC;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #FFFF66;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #99CCFF;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #CC99FF;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    padding: 30px;
+  background: #FFFF66;
+  background: #99CCFF;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><font color="#3366FF">My Website</font></h1>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        
+      <h2><center><font color="#FF3399">LINK</font><center></h2>
+        <div align="center">
+            <b><a href="lab01.html" target="_blank">Lab01</a>  <br><br> 
+            <a href="form.html" target="_blank">Lab02 form</a> <br><br> 
+            <a href="form_table.html" target="_blank">Lab02 form_table</a>  <br><br>
+            <a href="form_reserve.html" target="_blank">Lab02 form_reserve</a>  <br><br> 
+            <a href="food.html" target="_blank">food</a></b> </div>
+        </p>
+    </div>
+      
+    </div>
+    <div class="card">
+      <h2><center><font color="A020F0">ABOUT ME</font></center></h2>
+      <p><center><font color="A020F0">ชื่อ-นามสกุล: นางสาวธนัชพร เอกอุดม</font></center></p>
+      <p><center><font color="A020F0">รหัสนิสิต: 63160041 กลุ่ม: 2</font></center></p>
+    </div>
+ 
+
+</body>
+</html>
